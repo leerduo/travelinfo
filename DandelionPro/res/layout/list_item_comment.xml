@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/icon_vdisk" />
+
+        <TextView
+            android:id="@+id/tv_screen_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_icon"
+            android:layout_toRightOf="@+id/iv_icon"
+            android:layout_marginTop="-3dp"
+            android:text="随云"
+            android:textColor="#5f9a07" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_comment"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/iv_icon"
+            android:text="1月前"
+            android:textColor="@color/list_folder_sub_text_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_screen_name"
+            android:layout_below="@+id/tv_screen_name"
+            android:layout_marginTop="2dp"
+            android:text="沙发沙发" />
+    </RelativeLayout>
+
+</LinearLayout>

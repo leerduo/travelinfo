@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/blow_dandelion_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@drawable/bg_actionbar" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="轻轻吹"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_centerVertical="true"
+            style="@style/title_left_btn_style"
+            android:src="@drawable/btn_home_back" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_dandelion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/blow_parent_dandelion"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iv_dandelion_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/blow_parent_dandelion_left"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toRightOf="@+id/iv_1_1"
+        android:src="@drawable/blow_dandelion_right" />
+
+    <ImageView
+        android:id="@+id/iv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toRightOf="@+id/iv_1_1"
+        android:src="@drawable/blow_dandelion_right" />
+
+    <ImageView
+        android:id="@+id/iv_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toRightOf="@+id/iv_1_1"
+        android:src="@drawable/blow_dandelion_right" />
+
+    <ImageView
+        android:id="@+id/iv_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toRightOf="@+id/iv_1_1"
+        android:src="@drawable/blow_dandelion_right" />
+
+    <ImageView
+        android:id="@+id/iv_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toRightOf="@+id/iv_1_1"
+        android:src="@drawable/blow_dandelion_right" />
+
+    <ImageView
+        android:id="@+id/iv_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toRightOf="@+id/iv_1_1"
+        android:src="@drawable/blow_dandelion_right" />
+
+    <ImageView
+        android:id="@+id/iv_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toRightOf="@+id/iv_1_1"
+        android:src="@drawable/blow_dandelion_right" />
+
+    <ImageView
+        android:id="@+id/iv_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toRightOf="@+id/iv_1_1"
+        android:src="@drawable/blow_dandelion_right" />
+
+    <ImageView
+        android:id="@+id/iv_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toRightOf="@+id/iv_1_1"
+        android:src="@drawable/blow_dandelion_right" />
+
+    <ImageView
+        android:id="@+id/iv_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toRightOf="@+id/iv_1_1"
+        android:src="@drawable/blow_dandelion_right" />
+
+    <ImageView
+        android:id="@+id/iv_1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_dandelion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/blow_dandelion_left" />
+
+    <ImageView
+        android:id="@+id/iv_3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toLeftOf="@+id/iv_1_2"
+        android:src="@drawable/blow_dandelion_left" />
+
+    <ImageView
+        android:id="@+id/iv_4_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toLeftOf="@+id/iv_1_2"
+        android:src="@drawable/blow_dandelion_left" />
+
+    <ImageView
+        android:id="@+id/iv_5_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toLeftOf="@+id/iv_1_2"
+        android:src="@drawable/blow_dandelion_left" />
+
+    <ImageView
+        android:id="@+id/iv_6_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toLeftOf="@+id/iv_1_2"
+        android:src="@drawable/blow_dandelion_left" />
+
+    <ImageView
+        android:id="@+id/iv_7_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toLeftOf="@+id/iv_1_2"
+        android:src="@drawable/blow_dandelion_left" />
+
+    <ImageView
+        android:id="@+id/iv_8_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toLeftOf="@+id/iv_1_2"
+        android:src="@drawable/blow_dandelion_left" />
+
+    <ImageView
+        android:id="@+id/iv_9_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toLeftOf="@+id/iv_1_2"
+        android:src="@drawable/blow_dandelion_left" />
+
+    <ImageView
+        android:id="@+id/iv_10_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toLeftOf="@+id/iv_1_2"
+        android:src="@drawable/blow_dandelion_left" />
+
+    <ImageView
+        android:id="@+id/iv_1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_dandelion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/blow_dandelion" />
+
+    <ImageView
+        android:id="@+id/iv_2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_dandelion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/blow_dandelion" />
+
+    <ImageView
+        android:id="@+id/iv_3_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_dandelion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/blow_dandelion" />
+
+    <ImageView
+        android:id="@+id/iv_4_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_dandelion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/blow_dandelion" />
+
+    <ImageView
+        android:id="@+id/iv_5_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_dandelion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/blow_dandelion" />
+
+    <ImageView
+        android:id="@+id/iv_6_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_dandelion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/blow_dandelion" />
+
+    <ImageView
+        android:id="@+id/iv_7_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_dandelion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/blow_dandelion" />
+
+    <ImageView
+        android:id="@+id/iv_8_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_dandelion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/blow_dandelion" />
+
+    <ImageView
+        android:id="@+id/iv_9_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_dandelion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/blow_dandelion" />
+
+    <ImageView
+        android:id="@+id/iv_10_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_dandelion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/blow_dandelion" />
+
+    <RelativeLayout
+        android:id="@+id/rl_seed_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="80dp"
+        android:paddingTop="10dp"
+        android:visibility="invisible" >
+
+        <LinearLayout
+            android:id="@+id/ll_top_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="一颗种子飘落到了"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_result_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/textView1"
+                android:paddingLeft="5dp"
+                android:text="肯尼亚 ..."
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/ll_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_top_title"
+            android:background="@drawable/blow_seed_result_bg"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingTop="3dp" >
+
+            <ImageView
+                android:id="@+id/iv_result_folder"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/share_public_headview_bg" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/list_folder_text_bg_color" >
+
+                <TextView
+                    android:id="@+id/tv_result_title"
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:padding="3dp"
+                    android:text="狂野非洲十五天，心动肯尼亚"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_result_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_result_title"
+                    android:padding="3dp"
+                    android:text="2012.9.28"
+                    android:textColor="@color/list_folder_sub_text_color" />
+
+                <ImageView
+                    android:id="@+id/iv_result_portrait"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="5dp"
+                    android:src="@drawable/icon_vdisk" />
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_single_blow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/blow_dandelion_right"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rl_result_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_seed_result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_let_blow"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn_seed_result_selector"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="由它去飞"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_enter_note"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/btn_seed_result_selector"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="它的故事"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toRightOf="@+id/iv_1_1"
+        android:src="@drawable/blow_dandelion_right" />
+
+    <ImageView
+        android:id="@+id/iv_2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_1_2"
+        android:layout_toLeftOf="@+id/iv_1_2"
+        android:src="@drawable/blow_dandelion_left" />
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_actionbar" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="好友的游记"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-2dp"
+            android:src="@drawable/btn_home_back" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_head"
+        android:layout_below="@id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_note_info_bg"
+        android:padding="5dp" >
+
+        <FrameLayout
+            android:id="@+id/fl_portrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp" >
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/portrait_bg" />
+
+            <com.ustc.dystu.dandelion.utils.image.RoundedImageView
+                android:id="@+id/iv_portrait"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_vdisk" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@id/fl_portrait"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_friends_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="粉丝名称"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_travel_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="没有游记"
+                android:textColor="@color/list_folder_sub_text_color" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_travel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_above="@+id/btn_foot"
+        android:layout_below="@id/rl_head"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="1dip"
+        android:fastScrollEnabled="false" />
+
+    <Button
+        android:id="@+id/btn_foot"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_foot_print_selector"
+        android:text="看看Ta的足迹"
+        android:textSize="15sp" />
+
+</RelativeLayout>

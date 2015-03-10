@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_bg_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp" >
+
+            <ImageView
+                android:id="@+id/iv_portrait"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/icon_vdisk" />
+
+            <TextView
+                android:id="@+id/tv_screen_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/iv_portrait"
+                android:layout_marginTop="2dp"
+                android:layout_toRightOf="@+id/iv_portrait"
+                android:text="随云"
+                android:textColor="#5f9a07"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_screen_name"
+                android:layout_marginTop="2dp"
+                android:layout_toRightOf="@+id/iv_portrait"
+                android:text="在 青海游青海游青海游青海游 中添加了一条内容"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/note_info_item_bg"
+            android:orientation="vertical"
+            android:padding="3dp" >
+
+            <RelativeLayout
+                android:id="@+id/rl_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/iv_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="124dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/share_public_headview_bg" />
+
+                <TextView
+                    android:id="@+id/tv_pic_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/iv_icon"
+                    android:layout_alignRight="@id/iv_icon"
+                    android:background="#8000"
+                    android:padding="2dp"
+                    android:text="9P"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="微博正文微博正文微博正文微博正文微博正文微博正文微博正文微博正文微博正文微博正文微博正文微博正文"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f5f5f5"
+                android:gravity="right|center_vertical"
+                android:padding="3dp" >
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:paddingLeft="5dp"
+                    android:text="2012.04.22 22:09" />
+
+                <TextView
+                    android:id="@+id/tv_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/location_icon"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="北京市海淀区" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

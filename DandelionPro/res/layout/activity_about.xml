@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <com.ustc.dystu.dandelion.utils.image.RoundedImageView 
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launch"
+        />
+    
+    <TextView 
+        android:layout_marginTop="5dp"
+        android:textColor="#6698FF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="忆游-最美的记忆"
+        android:textSize="16sp"
+        />
+    
+    <TextView 
+        android:layout_marginTop="5dp"
+        android:textColor="#6698FF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:text="功能:"
+        android:textSize="26sp"
+        />
+
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="#33000000" />
+     
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:text="精选游记"
+         android:textSize="18sp"
+         android:textColor="#64e986"
+         />
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="#33000000" />
+     
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:text="吹一吹"
+         android:textSize="18sp"
+         android:textColor="#64e986"
+         />
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="#33000000" />
+     
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:text="友友机器人"
+         android:textSize="18sp"
+         android:textColor="#64e986"
+         />
+     
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="#33000000" />
+     
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:text="附近游记"
+         android:textSize="18sp"
+         android:textColor="#64e986"
+         />
+     
+       <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="#33000000" />
+     
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:text="好友游记"
+         android:textSize="18sp"
+         android:textColor="#64e986"
+         />
+     
+     
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="#33000000" />
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="忆游是基于新浪微博的游记APP,记录旅游途中的点点滴滴,同时可以查看其它旅友分享的游记。忆游已经开放源代码,作者的联系方式:\neoeduo@163.com"        
+         />
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ustc.dystu.dandelion"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <!-- 允许应用读取低级别的系统日志文件 -->
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name=".app.DandelionApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launch"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="ZxDmhR9cRXo9HYrChC5Awsn3" />
+
+        <activity android:name=".SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" >
+        </activity>
+        <activity android:name=".FriendsActivity" >
+        </activity>
+        <activity android:name=".BlowActivity" >
+        </activity>
+        <activity android:name=".NearActivity" >
+        </activity>
+        <activity android:name=".LatestTravelNoteActivity" >
+        </activity>
+
+        <!-- 必须注册在微博授权，分享微博时候用到 -->
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+        <activity
+            android:name=".EditNoteTitleActivity"
+            android:label="@string/title_activity_edit_note_title" >
+        </activity>
+        <activity
+            android:name=".AddNoteActivity"
+            android:label="@string/title_activity_add_note" >
+        </activity>
+        <activity
+            android:name=".NoteInfoActivity"
+            android:label="@string/title_activity_note_info" >
+        </activity>
+        <activity
+            android:name=".NoteDetailActivity"
+            android:label="@string/title_activity_note_detail" >
+        </activity>
+        <activity
+            android:name=".CommentActivity"
+            android:label="@string/title_activity_comment" >
+        </activity>
+        <activity
+            android:name=".FolderEditActivity"
+            android:label="@string/title_activity_folder_edit" >
+        </activity>
+        <activity
+            android:name=".FriendsInfoActivity"
+            android:label="@string/title_activity_friends_info" >
+        </activity>
+        <activity
+            android:name=".FriendFootprintActivity"
+            android:label="@string/title_activity_friend_footprint" >
+        </activity>
+        <activity
+            android:name=".FootprintActivity"
+            android:label="@string/title_activity_footprint" >
+        </activity>
+        <activity
+            android:name=".FootMapActivity"
+            android:label="@string/title_activity_foot_map" >
+        </activity>
+        <activity android:name=".RobotFragmentActivity" >
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>

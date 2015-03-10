@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/list_bg_color"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingRight="10dp" >
+
+    <View
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="#ebebeb" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/note_info_item_bg"
+        android:orientation="vertical"
+        android:padding="3dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/share_public_headview_bg" />
+
+            <TextView
+                android:id="@+id/tv_pic_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#8000"
+                android:padding="2dp"
+                android:layout_alignBottom="@id/iv_icon"
+                android:layout_alignRight="@id/iv_icon"
+                android:textColor="@color/white"
+                android:text="9P" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="微博正文微博正文微博正文微博正文微博正文微博正文微博正文微博正文微博正文微博正文微博正文微博正文"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f5f5f5"
+            android:gravity="right|center_vertical"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:text="22:09" />
+
+            <TextView
+                android:id="@+id/tv_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/location_icon"
+                android:ellipsize="end"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="北京市海淀区" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

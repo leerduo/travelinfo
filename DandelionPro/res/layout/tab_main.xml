@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingTop="3dp" >
+
+    <ImageView
+        android:id="@+id/tab_imageview_icon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tab_discover" />
+
+    <TextView
+        android:id="@+id/tab_textview_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tab_imageview_icon"
+        android:layout_marginTop="5dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+       android:marqueeRepeatLimit="1"
+        android:singleLine="true"
+        android:text="探索"
+        android:textColor="#656565"
+        android:textSize="14sp" />
+    
+   <!--  android:marqueeRepeatLimit: 设置走马灯滚动的次数。
+ -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/tab_line" />
+
+    <View
+        android:id="@+id/view_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab_textview_title"
+        android:layout_marginTop="2dp"
+        android:visibility="visible"
+        android:background="#7bbd18" />
+
+</RelativeLayout>

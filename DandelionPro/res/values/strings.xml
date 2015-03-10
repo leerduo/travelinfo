@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">忆游</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tab_travel">精选</string>
+    <string name="tab_friends">好友</string>
+    <string name="tab_me">我的旅行</string>
+    <string name="tab_near">附近</string>
+    <string name="tab_discover">探索</string>
+    <string name="search_friends">搜索好友</string>
+    <string name="attention">注意</string>
+    <string name="delete_all">是否要删除这条微博？</string>
+    <string name="ok">是</string>
+    <string name="cancel">否</string>
+    <string name="hello">Hello World, TextActivity!</string>
+    <string name="send">发送</string>
+    <string name="close">关闭</string>
+    <string name="share_dialog_title">新浪微博</string>
+    <string name="please_login">请登录！</string>
+    <string name="send_sucess">分享成功！</string>
+    <string name="send_failed">分享失败！</string>
+    <string name="del_pic">是否删除图片？</string>
+    <string name="title_activity_edit_note_title">EditNoteTitleActivity</string>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+    <string name="title_activity_note_info">NoteInfoActivity</string>
+    <string name="title_activity_note_detail">NoteDetailActivity</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="title_activity_folder_edit">FolderEditActivity</string>
+    <string name="title_activity_friends_info">FriendsInfoActivity</string>
+    <string name="title_activity_friend_footprint">FriendFootprintActivity</string>
+    <string name="title_activity_footprint">FootprintActivity</string>
+    <string name="title_activity_foot_map">FootMapActivity</string>
+    <string name="properties">SlidingMenu Properties</string>
+    <string name="general">General</string>
+    <string name="viewpager">ViewPager</string>
+    <string name="attach">Attach</string>
+    <string name="title_bar">Title Bar Options</string>
+    <string name="title_bar_slide">Sliding Title Bar</string>
+    <string name="title_bar_content">Sliding Content Only</string>
+    <string name="animations">Custom Animations</string>
+    <string name="anim_zoom">Zoom</string>
+    <string name="anim_scale">Scale</string>
+    <string name="anim_fold">Fold</string>
+    <string name="anim_slide">Slide Up</string>
+    <string name="changing_fragments">Changing Fragments</string>
+    <string name="responsive_ui">Responsive UI</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="left_and_right">Left and Right</string>
+    <string name="github">GitHub</string>
+    <string name="github_label">SlidingMenu on GitHub</string>
+    <string name="what_is_this">What is this?</string>
+    <string name="responsive_explanation">This is an example of a UI that responds well to device type. On phones, the menu will be placed inside a SlidingMenu, while on tablets the menu will be exposed alongside the content because we have enough room to always show it.</string>
+    <string name="about">About</string>
+    <string name="licenses">Licenses</string>
+    <string name="contact">Contact</string>
+    <string name="button_logout">退出登录</string>
+    <string name="title_activity_robot">RobotActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+</resources>

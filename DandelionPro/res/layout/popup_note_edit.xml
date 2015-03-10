@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#e000"
+    android:orientation="vertical"
+    android:paddingBottom="3dp" >
+
+    <LinearLayout
+        android:id="@+id/ll_change_title"
+        android:layout_width="@dimen/note_edit_pop_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/file_item_pop_selector"
+        android:orientation="vertical"
+        android:padding="@dimen/note_edit_pop_padding" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改标题"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/note_edit_pop_width"
+        android:layout_height="1px"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/ll_change_folder"
+        android:layout_width="@dimen/note_edit_pop_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/file_item_pop_selector"
+        android:orientation="vertical"
+        android:padding="@dimen/note_edit_pop_padding" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更换封面"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/note_edit_pop_width"
+        android:layout_height="1px"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/ll_share"
+        android:layout_width="@dimen/note_edit_pop_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/file_item_pop_selector"
+        android:orientation="vertical"
+        android:padding="@dimen/note_edit_pop_padding" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分享到"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/note_edit_pop_width"
+        android:layout_height="1px"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/ll_edit"
+        android:layout_width="@dimen/note_edit_pop_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/file_item_pop_selector"
+        android:orientation="vertical"
+        android:padding="@dimen/note_edit_pop_padding" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="编辑游记"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright 2011 Sina.
+ *
+ * Licensed under the Apache License and Weibo License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.open.weibo.com
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="text_num_gray">#333</color>
+    <color name="dialog_title_blue">#9CCCF7</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="green">#0cc054</color>
+    <color name="gray">#d0d0d0</color>
+    <color name="red">#ffd84545</color>
+    
+    <color name="list_background_color">#ffffffff</color>
+    <color name="list_bg_color">#fafafa</color>
+    <color name="list_folder_text_bg_color">#afff</color>
+    <color name="list_folder_sub_text_color">#656565</color>
+    <color name="discover_btn_pressed">#e4fdbf</color>
+    
+     <color name="btn_login_pressed">#303744</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+     <color name="btn_logout_pressed">#DA5A4D</color>
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@drawable/bg_actionbar" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="设置封面"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_back"
+            style="@style/title_left_btn_style"
+            android:layout_centerVertical="true"
+            android:src="@drawable/btn_home_back" />
+
+        <ImageView
+            android:id="@+id/iv_ok"
+            style="@style/title_right_btn_style"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/btn_ok_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/note_folder_bg"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/note_folder_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/share_public_headview_bg" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignBottom="@+id/iv_icon"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="100dp"
+            android:background="@color/list_folder_text_bg_color" >
+
+            <TextView
+                android:id="@+id/tv_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:ellipsize="end"
+                android:padding="3dp"
+                android:singleLine="true"
+                android:text="游走在历史的边缘边缘边缘边缘边缘"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:padding="3dp"
+                android:text="2013.11.25"
+                android:textColor="@color/list_folder_sub_text_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_time_used"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:padding="3dp"
+                android:text="10天"
+                android:textColor="@color/list_folder_sub_text_color"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gv_pics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:horizontalSpacing="6dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:numColumns="4"
+        android:verticalSpacing="6dp" >
+    </GridView>
+
+</LinearLayout>
